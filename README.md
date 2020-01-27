@@ -1,7 +1,8 @@
 # About
 
 A course project for Programmable Logic Device and Hardware course in 2015 when I was a junior.
-A FPGA programming course project, playing a complete piano song with multiple buzzers to creates chord effects.
+
+This is a FPGA programming course project, playing a complete piano song with multiple buzzers to creates chord effects.
 
 # Details
 
