@@ -1,0 +1,26 @@
+module WaveGenerator (
+		clk,
+		rst,
+		key,
+		wave
+		);
+	input clk;
+	input rst;
+	input	[6:0] key;
+	output wave;
+	reg out;
+	reg [31:0] count;
+	reg [31:0] delay;
+	wire wave;
+	
+	always @(posedge clk or negedge rst) begin
+		if (rst == 1'b0) begin
+			count <= 32'b0;
+		end
+		else 
+			if((count == delay) && (!(delay == 32'b0))) begin
+				count <= 32'b0;
+			end
+			else
+				count <= count + 1;
+	end;

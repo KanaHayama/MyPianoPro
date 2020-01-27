@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="MyPiano">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_10|BCDSpliter:comb_6|DIV:comb_3|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_8os.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_9|BCDSpliter:comb_6|DIV:comb_3|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_8os.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_6|BCDSpliter:comb_6|DIV:comb_3|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_8os.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_7|ROM:comb_5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_gs91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_8|ROM:comb_4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hs91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_10|MusicPlayer:comb_3|ToneGenerator:tg|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ogh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_10|ROM:comb_4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ls91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_7|BCDSpliter:comb_6|DIV:comb_3|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_8os.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_8|ROM:comb_5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_gs91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_9|ROM:comb_4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_js91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_10|ROM:comb_5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_gs91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_6|MusicPlayer:comb_3|ToneGenerator:tg|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ogh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_6|ROM:comb_4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ds91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_8|BCDSpliter:comb_6|DIV:comb_3|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_8os.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_9|ROM:comb_5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_gs91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_6|ROM:comb_5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_es91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MyPianoPro|MusicUnit:comb_7|ROM:comb_4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fs91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

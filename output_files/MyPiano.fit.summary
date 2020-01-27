@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Dec 09 12:05:16 2015
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : MyPiano
+Top-level Entity Name : MyPianoPro
+Family : Cyclone IV E
+Device : EP4CE10E22C8
+Timing Models : Final
+Total logic elements : 1,920 / 10,320 ( 19 % )
+    Total combinational functions : 1,917 / 10,320 ( 19 % )
+    Dedicated logic registers : 325 / 10,320 ( 3 % )
+Total registers : 325
+Total pins : 27 / 92 ( 29 % )
+Total virtual pins : 0
+Total memory bits : 50,176 / 423,936 ( 12 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

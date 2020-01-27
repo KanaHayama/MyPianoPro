@@ -1,0 +1,36 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+# File: F:\MyPiano Pro\MyPianoLab.csv
+# Generated on: Tue Dec 08 13:59:48 2015
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+BTNEN,Input,PIN_110,4,B4_N0,,,,,
+BTNRST,Input,PIN_212,8,B8_N0,,,,,
+CLK,Input,PIN_33,2,B2_N0,,,,,
+COM4OUT[3],Output,PIN_237,8,B8_N0,,,,,
+COM4OUT[2],Output,PIN_238,8,B8_N0,,,,,
+COM4OUT[1],Output,PIN_239,8,B8_N0,,,,,
+COM4OUT[0],Output,PIN_240,8,B8_N0,,,,,
+LED4OUT[6],Output,PIN_230,8,B8_N0,,,,,
+LED4OUT[5],Output,PIN_232,8,B8_N0,,,,,
+LED4OUT[4],Output,PIN_236,8,B8_N0,,,,,
+LED4OUT[3],Output,PIN_235,8,B8_N0,,,,,
+LED4OUT[2],Output,PIN_231,8,B8_N0,,,,,
+LED4OUT[1],Output,PIN_226,8,B8_N0,,,,,
+LED4OUT[0],Output,PIN_234,8,B8_N0,,,,,
+WAVE,Output,PIN_4,1,B1_N0,,,,,

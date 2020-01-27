@@ -1,0 +1,135 @@
+Flow report for MyPiano
+Wed Dec 09 12:06:00 2015
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Flow Summary                                                                    ;
++------------------------------------+--------------------------------------------+
+; Flow Status                        ; Successful - Wed Dec 09 12:06:00 2015      ;
+; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Revision Name                      ; MyPiano                                    ;
+; Top-level Entity Name              ; MyPianoPro                                 ;
+; Family                             ; Cyclone IV E                               ;
+; Device                             ; EP4CE10E22C8                               ;
+; Timing Models                      ; Final                                      ;
+; Total logic elements               ; 1,920 / 10,320 ( 19 % )                    ;
+;     Total combinational functions  ; 1,917 / 10,320 ( 19 % )                    ;
+;     Dedicated logic registers      ; 325 / 10,320 ( 3 % )                       ;
+; Total registers                    ; 325                                        ;
+; Total pins                         ; 27 / 92 ( 29 % )                           ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 50,176 / 423,936 ( 12 % )                  ;
+; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                              ;
++------------------------------------+--------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/09/2015 12:03:25 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; MyPiano             ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 198695763385654.144963380404636 ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_DIVIDE                      ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                     ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; DIV_bb.v                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; ROM_bb.v                        ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                        ; --            ; MyPianoPro  ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; MyPianoPro  ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; MyPianoPro  ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; MyPianoPro                      ; MyPiano       ; --          ; --             ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:01:01     ; 1.0                     ; 479 MB              ; 00:00:35                           ;
+; Fitter                    ; 00:00:44     ; 1.0                     ; 709 MB              ; 00:00:16                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 425 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:20     ; 1.0                     ; 497 MB              ; 00:00:05                           ;
+; EDA Netlist Writer        ; 00:00:06     ; 1.0                     ; 387 MB              ; 00:00:01                           ;
+; Total                     ; 00:02:15     ; --                      ; --                  ; 00:00:58                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; LZJ-SAMSUNG      ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; LZJ-SAMSUNG      ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; LZJ-SAMSUNG      ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; LZJ-SAMSUNG      ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; LZJ-SAMSUNG      ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off MyPiano -c MyPiano
+quartus_fit --read_settings_files=off --write_settings_files=off MyPiano -c MyPiano
+quartus_asm --read_settings_files=off --write_settings_files=off MyPiano -c MyPiano
+quartus_sta MyPiano -c MyPiano
+quartus_eda --read_settings_files=off --write_settings_files=off MyPiano -c MyPiano
+
+
+

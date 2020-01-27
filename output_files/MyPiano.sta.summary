@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'FreqChange:comb_5|clk'
+Slack : -16.461
+TNS   : -3271.780
+
+Type  : Slow 1200mV 85C Model Setup 'FreqChange:comb_11|clk'
+Slack : -8.209
+TNS   : -34.957
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -3.651
+TNS   : -114.410
+
+Type  : Slow 1200mV 85C Model Hold 'FreqChange:comb_11|clk'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FreqChange:comb_5|clk'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FreqChange:comb_5|clk'
+Slack : -3.201
+TNS   : -441.514
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -52.071
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FreqChange:comb_11|clk'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Setup 'FreqChange:comb_5|clk'
+Slack : -15.056
+TNS   : -3010.413
+
+Type  : Slow 1200mV 0C Model Setup 'FreqChange:comb_11|clk'
+Slack : -7.530
+TNS   : -31.705
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -3.433
+TNS   : -107.258
+
+Type  : Slow 1200mV 0C Model Hold 'FreqChange:comb_11|clk'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FreqChange:comb_5|clk'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.566
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FreqChange:comb_5|clk'
+Slack : -3.201
+TNS   : -441.514
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -52.071
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FreqChange:comb_11|clk'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Fast 1200mV 0C Model Setup 'FreqChange:comb_5|clk'
+Slack : -6.359
+TNS   : -1206.972
+
+Type  : Fast 1200mV 0C Model Setup 'FreqChange:comb_11|clk'
+Slack : -2.778
+TNS   : -10.982
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -0.958
+TNS   : -29.353
+
+Type  : Fast 1200mV 0C Model Hold 'FreqChange:comb_5|clk'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FreqChange:comb_11|clk'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.255
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -38.208
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FreqChange:comb_5|clk'
+Slack : -1.000
+TNS   : -290.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FreqChange:comb_11|clk'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------

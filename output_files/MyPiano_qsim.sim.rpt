@@ -1,0 +1,469 @@
+Simulator report for MyPiano_qsim
+Tue Oct 27 23:04:53 2015
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 189 nodes    ;
+; Simulation Coverage         ;      38.62 % ;
+; Total Number of Transitions ; 2952         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
++-----------------------------+--------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                              ;
++--------------------------------------------------------------------------------------------+----------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                            ; Default Value ;
++--------------------------------------------------------------------------------------------+----------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                         ; Timing        ;
+; Start time                                                                                 ; 0 ns                                               ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                ;               ;
+; Vector input source                                                                        ; C:/MyDocuments/Files/Alrera/MyPiano/FreqChange.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                 ; On            ;
+; Check outputs                                                                              ; Off                                                ; Off           ;
+; Report simulation coverage                                                                 ; On                                                 ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                 ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                 ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                 ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                ; Off           ;
+; Detect glitches                                                                            ; Off                                                ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                 ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                         ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                               ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport                                          ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport                                          ; Transport     ;
++--------------------------------------------------------------------------------------------+----------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      38.62 % ;
+; Total nodes checked                                 ; 189          ;
+; Total output ports checked                          ; 189          ;
+; Total output ports with complete 1/0-value coverage ; 73           ;
+; Total output ports with no 1/0-value coverage       ; 116          ;
+; Total output ports with no 1-value coverage         ; 116          ;
+; Total output ports with no 0-value coverage         ; 116          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                            ;
++--------------------------+--------------------------+------------------+
+; Node Name                ; Output Port Name         ; Output Port Type ;
++--------------------------+--------------------------+------------------+
+; |FreqChange|counter~29   ; |FreqChange|counter~29   ; out              ;
+; |FreqChange|counter~30   ; |FreqChange|counter~30   ; out              ;
+; |FreqChange|counter~31   ; |FreqChange|counter~31   ; out              ;
+; |FreqChange|clk          ; |FreqChange|clk          ; regout           ;
+; |FreqChange|counter[0]   ; |FreqChange|counter[0]   ; regout           ;
+; |FreqChange|counter[1]   ; |FreqChange|counter[1]   ; regout           ;
+; |FreqChange|counter[2]   ; |FreqChange|counter[2]   ; regout           ;
+; |FreqChange|clk_in       ; |FreqChange|clk_in       ; out              ;
+; |FreqChange|clk_out      ; |FreqChange|clk_out      ; pin_out          ;
+; |FreqChange|LessThan0~0  ; |FreqChange|LessThan0~0  ; out0             ;
+; |FreqChange|LessThan0~1  ; |FreqChange|LessThan0~1  ; out0             ;
+; |FreqChange|LessThan0~2  ; |FreqChange|LessThan0~2  ; out0             ;
+; |FreqChange|LessThan0~3  ; |FreqChange|LessThan0~3  ; out0             ;
+; |FreqChange|LessThan0~4  ; |FreqChange|LessThan0~4  ; out0             ;
+; |FreqChange|LessThan0~5  ; |FreqChange|LessThan0~5  ; out0             ;
+; |FreqChange|LessThan0~6  ; |FreqChange|LessThan0~6  ; out0             ;
+; |FreqChange|LessThan0~7  ; |FreqChange|LessThan0~7  ; out0             ;
+; |FreqChange|LessThan0~8  ; |FreqChange|LessThan0~8  ; out0             ;
+; |FreqChange|LessThan0~9  ; |FreqChange|LessThan0~9  ; out0             ;
+; |FreqChange|LessThan0~10 ; |FreqChange|LessThan0~10 ; out0             ;
+; |FreqChange|LessThan0~11 ; |FreqChange|LessThan0~11 ; out0             ;
+; |FreqChange|LessThan0~12 ; |FreqChange|LessThan0~12 ; out0             ;
+; |FreqChange|LessThan0~13 ; |FreqChange|LessThan0~13 ; out0             ;
+; |FreqChange|LessThan0~14 ; |FreqChange|LessThan0~14 ; out0             ;
+; |FreqChange|LessThan0~15 ; |FreqChange|LessThan0~15 ; out0             ;
+; |FreqChange|LessThan0~16 ; |FreqChange|LessThan0~16 ; out0             ;
+; |FreqChange|LessThan0~17 ; |FreqChange|LessThan0~17 ; out0             ;
+; |FreqChange|LessThan0~18 ; |FreqChange|LessThan0~18 ; out0             ;
+; |FreqChange|LessThan0~19 ; |FreqChange|LessThan0~19 ; out0             ;
+; |FreqChange|LessThan0~20 ; |FreqChange|LessThan0~20 ; out0             ;
+; |FreqChange|LessThan0~21 ; |FreqChange|LessThan0~21 ; out0             ;
+; |FreqChange|LessThan0~22 ; |FreqChange|LessThan0~22 ; out0             ;
+; |FreqChange|LessThan0~23 ; |FreqChange|LessThan0~23 ; out0             ;
+; |FreqChange|LessThan0~24 ; |FreqChange|LessThan0~24 ; out0             ;
+; |FreqChange|LessThan0~25 ; |FreqChange|LessThan0~25 ; out0             ;
+; |FreqChange|LessThan0~26 ; |FreqChange|LessThan0~26 ; out0             ;
+; |FreqChange|LessThan0~27 ; |FreqChange|LessThan0~27 ; out0             ;
+; |FreqChange|LessThan0~28 ; |FreqChange|LessThan0~28 ; out0             ;
+; |FreqChange|LessThan0~29 ; |FreqChange|LessThan0~29 ; out0             ;
+; |FreqChange|LessThan0~30 ; |FreqChange|LessThan0~30 ; out0             ;
+; |FreqChange|LessThan0~31 ; |FreqChange|LessThan0~31 ; out0             ;
+; |FreqChange|LessThan0~32 ; |FreqChange|LessThan0~32 ; out0             ;
+; |FreqChange|LessThan0~33 ; |FreqChange|LessThan0~33 ; out0             ;
+; |FreqChange|LessThan0~34 ; |FreqChange|LessThan0~34 ; out0             ;
+; |FreqChange|LessThan0~35 ; |FreqChange|LessThan0~35 ; out0             ;
+; |FreqChange|LessThan0~36 ; |FreqChange|LessThan0~36 ; out0             ;
+; |FreqChange|LessThan0~37 ; |FreqChange|LessThan0~37 ; out0             ;
+; |FreqChange|LessThan0~38 ; |FreqChange|LessThan0~38 ; out0             ;
+; |FreqChange|LessThan0~39 ; |FreqChange|LessThan0~39 ; out0             ;
+; |FreqChange|LessThan0~40 ; |FreqChange|LessThan0~40 ; out0             ;
+; |FreqChange|LessThan0~41 ; |FreqChange|LessThan0~41 ; out0             ;
+; |FreqChange|LessThan0~42 ; |FreqChange|LessThan0~42 ; out0             ;
+; |FreqChange|LessThan0~43 ; |FreqChange|LessThan0~43 ; out0             ;
+; |FreqChange|LessThan0~44 ; |FreqChange|LessThan0~44 ; out0             ;
+; |FreqChange|LessThan0~45 ; |FreqChange|LessThan0~45 ; out0             ;
+; |FreqChange|LessThan0~46 ; |FreqChange|LessThan0~46 ; out0             ;
+; |FreqChange|LessThan0~47 ; |FreqChange|LessThan0~47 ; out0             ;
+; |FreqChange|LessThan0~48 ; |FreqChange|LessThan0~48 ; out0             ;
+; |FreqChange|LessThan0~49 ; |FreqChange|LessThan0~49 ; out0             ;
+; |FreqChange|LessThan0~50 ; |FreqChange|LessThan0~50 ; out0             ;
+; |FreqChange|LessThan0~51 ; |FreqChange|LessThan0~51 ; out0             ;
+; |FreqChange|LessThan0~52 ; |FreqChange|LessThan0~52 ; out0             ;
+; |FreqChange|LessThan0~53 ; |FreqChange|LessThan0~53 ; out0             ;
+; |FreqChange|LessThan0~54 ; |FreqChange|LessThan0~54 ; out0             ;
+; |FreqChange|LessThan0~55 ; |FreqChange|LessThan0~55 ; out0             ;
+; |FreqChange|LessThan0~56 ; |FreqChange|LessThan0~56 ; out0             ;
+; |FreqChange|LessThan0~57 ; |FreqChange|LessThan0~57 ; out0             ;
+; |FreqChange|LessThan0~58 ; |FreqChange|LessThan0~58 ; out0             ;
+; |FreqChange|LessThan0~59 ; |FreqChange|LessThan0~59 ; out0             ;
+; |FreqChange|LessThan0~60 ; |FreqChange|LessThan0~60 ; out0             ;
+; |FreqChange|Add0~0       ; |FreqChange|Add0~0       ; out0             ;
+; |FreqChange|Add0~1       ; |FreqChange|Add0~1       ; out0             ;
+; |FreqChange|Add0~2       ; |FreqChange|Add0~2       ; out0             ;
++--------------------------+--------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------+
+; Missing 1-Value Coverage                                             ;
++-------------------------+-------------------------+------------------+
+; Node Name               ; Output Port Name        ; Output Port Type ;
++-------------------------+-------------------------+------------------+
+; |FreqChange|counter~0   ; |FreqChange|counter~0   ; out              ;
+; |FreqChange|counter~1   ; |FreqChange|counter~1   ; out              ;
+; |FreqChange|counter~2   ; |FreqChange|counter~2   ; out              ;
+; |FreqChange|counter~3   ; |FreqChange|counter~3   ; out              ;
+; |FreqChange|counter~4   ; |FreqChange|counter~4   ; out              ;
+; |FreqChange|counter~5   ; |FreqChange|counter~5   ; out              ;
+; |FreqChange|counter~6   ; |FreqChange|counter~6   ; out              ;
+; |FreqChange|counter~7   ; |FreqChange|counter~7   ; out              ;
+; |FreqChange|counter~8   ; |FreqChange|counter~8   ; out              ;
+; |FreqChange|counter~9   ; |FreqChange|counter~9   ; out              ;
+; |FreqChange|counter~10  ; |FreqChange|counter~10  ; out              ;
+; |FreqChange|counter~11  ; |FreqChange|counter~11  ; out              ;
+; |FreqChange|counter~12  ; |FreqChange|counter~12  ; out              ;
+; |FreqChange|counter~13  ; |FreqChange|counter~13  ; out              ;
+; |FreqChange|counter~14  ; |FreqChange|counter~14  ; out              ;
+; |FreqChange|counter~15  ; |FreqChange|counter~15  ; out              ;
+; |FreqChange|counter~16  ; |FreqChange|counter~16  ; out              ;
+; |FreqChange|counter~17  ; |FreqChange|counter~17  ; out              ;
+; |FreqChange|counter~18  ; |FreqChange|counter~18  ; out              ;
+; |FreqChange|counter~19  ; |FreqChange|counter~19  ; out              ;
+; |FreqChange|counter~20  ; |FreqChange|counter~20  ; out              ;
+; |FreqChange|counter~21  ; |FreqChange|counter~21  ; out              ;
+; |FreqChange|counter~22  ; |FreqChange|counter~22  ; out              ;
+; |FreqChange|counter~23  ; |FreqChange|counter~23  ; out              ;
+; |FreqChange|counter~24  ; |FreqChange|counter~24  ; out              ;
+; |FreqChange|counter~25  ; |FreqChange|counter~25  ; out              ;
+; |FreqChange|counter~26  ; |FreqChange|counter~26  ; out              ;
+; |FreqChange|counter~27  ; |FreqChange|counter~27  ; out              ;
+; |FreqChange|counter~28  ; |FreqChange|counter~28  ; out              ;
+; |FreqChange|counter[3]  ; |FreqChange|counter[3]  ; regout           ;
+; |FreqChange|counter[4]  ; |FreqChange|counter[4]  ; regout           ;
+; |FreqChange|counter[5]  ; |FreqChange|counter[5]  ; regout           ;
+; |FreqChange|counter[6]  ; |FreqChange|counter[6]  ; regout           ;
+; |FreqChange|counter[7]  ; |FreqChange|counter[7]  ; regout           ;
+; |FreqChange|counter[8]  ; |FreqChange|counter[8]  ; regout           ;
+; |FreqChange|counter[9]  ; |FreqChange|counter[9]  ; regout           ;
+; |FreqChange|counter[10] ; |FreqChange|counter[10] ; regout           ;
+; |FreqChange|counter[11] ; |FreqChange|counter[11] ; regout           ;
+; |FreqChange|counter[12] ; |FreqChange|counter[12] ; regout           ;
+; |FreqChange|counter[13] ; |FreqChange|counter[13] ; regout           ;
+; |FreqChange|counter[14] ; |FreqChange|counter[14] ; regout           ;
+; |FreqChange|counter[15] ; |FreqChange|counter[15] ; regout           ;
+; |FreqChange|counter[16] ; |FreqChange|counter[16] ; regout           ;
+; |FreqChange|counter[17] ; |FreqChange|counter[17] ; regout           ;
+; |FreqChange|counter[18] ; |FreqChange|counter[18] ; regout           ;
+; |FreqChange|counter[19] ; |FreqChange|counter[19] ; regout           ;
+; |FreqChange|counter[20] ; |FreqChange|counter[20] ; regout           ;
+; |FreqChange|counter[21] ; |FreqChange|counter[21] ; regout           ;
+; |FreqChange|counter[22] ; |FreqChange|counter[22] ; regout           ;
+; |FreqChange|counter[23] ; |FreqChange|counter[23] ; regout           ;
+; |FreqChange|counter[24] ; |FreqChange|counter[24] ; regout           ;
+; |FreqChange|counter[25] ; |FreqChange|counter[25] ; regout           ;
+; |FreqChange|counter[26] ; |FreqChange|counter[26] ; regout           ;
+; |FreqChange|counter[27] ; |FreqChange|counter[27] ; regout           ;
+; |FreqChange|counter[28] ; |FreqChange|counter[28] ; regout           ;
+; |FreqChange|counter[29] ; |FreqChange|counter[29] ; regout           ;
+; |FreqChange|counter[30] ; |FreqChange|counter[30] ; regout           ;
+; |FreqChange|counter[31] ; |FreqChange|counter[31] ; regout           ;
+; |FreqChange|Add0~3      ; |FreqChange|Add0~3      ; out0             ;
+; |FreqChange|Add0~4      ; |FreqChange|Add0~4      ; out0             ;
+; |FreqChange|Add0~5      ; |FreqChange|Add0~5      ; out0             ;
+; |FreqChange|Add0~6      ; |FreqChange|Add0~6      ; out0             ;
+; |FreqChange|Add0~7      ; |FreqChange|Add0~7      ; out0             ;
+; |FreqChange|Add0~8      ; |FreqChange|Add0~8      ; out0             ;
+; |FreqChange|Add0~9      ; |FreqChange|Add0~9      ; out0             ;
+; |FreqChange|Add0~10     ; |FreqChange|Add0~10     ; out0             ;
+; |FreqChange|Add0~11     ; |FreqChange|Add0~11     ; out0             ;
+; |FreqChange|Add0~12     ; |FreqChange|Add0~12     ; out0             ;
+; |FreqChange|Add0~13     ; |FreqChange|Add0~13     ; out0             ;
+; |FreqChange|Add0~14     ; |FreqChange|Add0~14     ; out0             ;
+; |FreqChange|Add0~15     ; |FreqChange|Add0~15     ; out0             ;
+; |FreqChange|Add0~16     ; |FreqChange|Add0~16     ; out0             ;
+; |FreqChange|Add0~17     ; |FreqChange|Add0~17     ; out0             ;
+; |FreqChange|Add0~18     ; |FreqChange|Add0~18     ; out0             ;
+; |FreqChange|Add0~19     ; |FreqChange|Add0~19     ; out0             ;
+; |FreqChange|Add0~20     ; |FreqChange|Add0~20     ; out0             ;
+; |FreqChange|Add0~21     ; |FreqChange|Add0~21     ; out0             ;
+; |FreqChange|Add0~22     ; |FreqChange|Add0~22     ; out0             ;
+; |FreqChange|Add0~23     ; |FreqChange|Add0~23     ; out0             ;
+; |FreqChange|Add0~24     ; |FreqChange|Add0~24     ; out0             ;
+; |FreqChange|Add0~25     ; |FreqChange|Add0~25     ; out0             ;
+; |FreqChange|Add0~26     ; |FreqChange|Add0~26     ; out0             ;
+; |FreqChange|Add0~27     ; |FreqChange|Add0~27     ; out0             ;
+; |FreqChange|Add0~28     ; |FreqChange|Add0~28     ; out0             ;
+; |FreqChange|Add0~29     ; |FreqChange|Add0~29     ; out0             ;
+; |FreqChange|Add0~30     ; |FreqChange|Add0~30     ; out0             ;
+; |FreqChange|Add0~31     ; |FreqChange|Add0~31     ; out0             ;
+; |FreqChange|Add0~32     ; |FreqChange|Add0~32     ; out0             ;
+; |FreqChange|Add0~33     ; |FreqChange|Add0~33     ; out0             ;
+; |FreqChange|Add0~34     ; |FreqChange|Add0~34     ; out0             ;
+; |FreqChange|Add0~35     ; |FreqChange|Add0~35     ; out0             ;
+; |FreqChange|Add0~36     ; |FreqChange|Add0~36     ; out0             ;
+; |FreqChange|Add0~37     ; |FreqChange|Add0~37     ; out0             ;
+; |FreqChange|Add0~38     ; |FreqChange|Add0~38     ; out0             ;
+; |FreqChange|Add0~39     ; |FreqChange|Add0~39     ; out0             ;
+; |FreqChange|Add0~40     ; |FreqChange|Add0~40     ; out0             ;
+; |FreqChange|Add0~41     ; |FreqChange|Add0~41     ; out0             ;
+; |FreqChange|Add0~42     ; |FreqChange|Add0~42     ; out0             ;
+; |FreqChange|Add0~43     ; |FreqChange|Add0~43     ; out0             ;
+; |FreqChange|Add0~44     ; |FreqChange|Add0~44     ; out0             ;
+; |FreqChange|Add0~45     ; |FreqChange|Add0~45     ; out0             ;
+; |FreqChange|Add0~46     ; |FreqChange|Add0~46     ; out0             ;
+; |FreqChange|Add0~47     ; |FreqChange|Add0~47     ; out0             ;
+; |FreqChange|Add0~48     ; |FreqChange|Add0~48     ; out0             ;
+; |FreqChange|Add0~49     ; |FreqChange|Add0~49     ; out0             ;
+; |FreqChange|Add0~50     ; |FreqChange|Add0~50     ; out0             ;
+; |FreqChange|Add0~51     ; |FreqChange|Add0~51     ; out0             ;
+; |FreqChange|Add0~52     ; |FreqChange|Add0~52     ; out0             ;
+; |FreqChange|Add0~53     ; |FreqChange|Add0~53     ; out0             ;
+; |FreqChange|Add0~54     ; |FreqChange|Add0~54     ; out0             ;
+; |FreqChange|Add0~55     ; |FreqChange|Add0~55     ; out0             ;
+; |FreqChange|Add0~56     ; |FreqChange|Add0~56     ; out0             ;
+; |FreqChange|Add0~57     ; |FreqChange|Add0~57     ; out0             ;
+; |FreqChange|Add0~58     ; |FreqChange|Add0~58     ; out0             ;
+; |FreqChange|Add0~59     ; |FreqChange|Add0~59     ; out0             ;
+; |FreqChange|Add0~60     ; |FreqChange|Add0~60     ; out0             ;
++-------------------------+-------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------+
+; Missing 0-Value Coverage                                             ;
++-------------------------+-------------------------+------------------+
+; Node Name               ; Output Port Name        ; Output Port Type ;
++-------------------------+-------------------------+------------------+
+; |FreqChange|counter~0   ; |FreqChange|counter~0   ; out              ;
+; |FreqChange|counter~1   ; |FreqChange|counter~1   ; out              ;
+; |FreqChange|counter~2   ; |FreqChange|counter~2   ; out              ;
+; |FreqChange|counter~3   ; |FreqChange|counter~3   ; out              ;
+; |FreqChange|counter~4   ; |FreqChange|counter~4   ; out              ;
+; |FreqChange|counter~5   ; |FreqChange|counter~5   ; out              ;
+; |FreqChange|counter~6   ; |FreqChange|counter~6   ; out              ;
+; |FreqChange|counter~7   ; |FreqChange|counter~7   ; out              ;
+; |FreqChange|counter~8   ; |FreqChange|counter~8   ; out              ;
+; |FreqChange|counter~9   ; |FreqChange|counter~9   ; out              ;
+; |FreqChange|counter~10  ; |FreqChange|counter~10  ; out              ;
+; |FreqChange|counter~11  ; |FreqChange|counter~11  ; out              ;
+; |FreqChange|counter~12  ; |FreqChange|counter~12  ; out              ;
+; |FreqChange|counter~13  ; |FreqChange|counter~13  ; out              ;
+; |FreqChange|counter~14  ; |FreqChange|counter~14  ; out              ;
+; |FreqChange|counter~15  ; |FreqChange|counter~15  ; out              ;
+; |FreqChange|counter~16  ; |FreqChange|counter~16  ; out              ;
+; |FreqChange|counter~17  ; |FreqChange|counter~17  ; out              ;
+; |FreqChange|counter~18  ; |FreqChange|counter~18  ; out              ;
+; |FreqChange|counter~19  ; |FreqChange|counter~19  ; out              ;
+; |FreqChange|counter~20  ; |FreqChange|counter~20  ; out              ;
+; |FreqChange|counter~21  ; |FreqChange|counter~21  ; out              ;
+; |FreqChange|counter~22  ; |FreqChange|counter~22  ; out              ;
+; |FreqChange|counter~23  ; |FreqChange|counter~23  ; out              ;
+; |FreqChange|counter~24  ; |FreqChange|counter~24  ; out              ;
+; |FreqChange|counter~25  ; |FreqChange|counter~25  ; out              ;
+; |FreqChange|counter~26  ; |FreqChange|counter~26  ; out              ;
+; |FreqChange|counter~27  ; |FreqChange|counter~27  ; out              ;
+; |FreqChange|counter~28  ; |FreqChange|counter~28  ; out              ;
+; |FreqChange|counter[3]  ; |FreqChange|counter[3]  ; regout           ;
+; |FreqChange|counter[4]  ; |FreqChange|counter[4]  ; regout           ;
+; |FreqChange|counter[5]  ; |FreqChange|counter[5]  ; regout           ;
+; |FreqChange|counter[6]  ; |FreqChange|counter[6]  ; regout           ;
+; |FreqChange|counter[7]  ; |FreqChange|counter[7]  ; regout           ;
+; |FreqChange|counter[8]  ; |FreqChange|counter[8]  ; regout           ;
+; |FreqChange|counter[9]  ; |FreqChange|counter[9]  ; regout           ;
+; |FreqChange|counter[10] ; |FreqChange|counter[10] ; regout           ;
+; |FreqChange|counter[11] ; |FreqChange|counter[11] ; regout           ;
+; |FreqChange|counter[12] ; |FreqChange|counter[12] ; regout           ;
+; |FreqChange|counter[13] ; |FreqChange|counter[13] ; regout           ;
+; |FreqChange|counter[14] ; |FreqChange|counter[14] ; regout           ;
+; |FreqChange|counter[15] ; |FreqChange|counter[15] ; regout           ;
+; |FreqChange|counter[16] ; |FreqChange|counter[16] ; regout           ;
+; |FreqChange|counter[17] ; |FreqChange|counter[17] ; regout           ;
+; |FreqChange|counter[18] ; |FreqChange|counter[18] ; regout           ;
+; |FreqChange|counter[19] ; |FreqChange|counter[19] ; regout           ;
+; |FreqChange|counter[20] ; |FreqChange|counter[20] ; regout           ;
+; |FreqChange|counter[21] ; |FreqChange|counter[21] ; regout           ;
+; |FreqChange|counter[22] ; |FreqChange|counter[22] ; regout           ;
+; |FreqChange|counter[23] ; |FreqChange|counter[23] ; regout           ;
+; |FreqChange|counter[24] ; |FreqChange|counter[24] ; regout           ;
+; |FreqChange|counter[25] ; |FreqChange|counter[25] ; regout           ;
+; |FreqChange|counter[26] ; |FreqChange|counter[26] ; regout           ;
+; |FreqChange|counter[27] ; |FreqChange|counter[27] ; regout           ;
+; |FreqChange|counter[28] ; |FreqChange|counter[28] ; regout           ;
+; |FreqChange|counter[29] ; |FreqChange|counter[29] ; regout           ;
+; |FreqChange|counter[30] ; |FreqChange|counter[30] ; regout           ;
+; |FreqChange|counter[31] ; |FreqChange|counter[31] ; regout           ;
+; |FreqChange|Add0~3      ; |FreqChange|Add0~3      ; out0             ;
+; |FreqChange|Add0~4      ; |FreqChange|Add0~4      ; out0             ;
+; |FreqChange|Add0~5      ; |FreqChange|Add0~5      ; out0             ;
+; |FreqChange|Add0~6      ; |FreqChange|Add0~6      ; out0             ;
+; |FreqChange|Add0~7      ; |FreqChange|Add0~7      ; out0             ;
+; |FreqChange|Add0~8      ; |FreqChange|Add0~8      ; out0             ;
+; |FreqChange|Add0~9      ; |FreqChange|Add0~9      ; out0             ;
+; |FreqChange|Add0~10     ; |FreqChange|Add0~10     ; out0             ;
+; |FreqChange|Add0~11     ; |FreqChange|Add0~11     ; out0             ;
+; |FreqChange|Add0~12     ; |FreqChange|Add0~12     ; out0             ;
+; |FreqChange|Add0~13     ; |FreqChange|Add0~13     ; out0             ;
+; |FreqChange|Add0~14     ; |FreqChange|Add0~14     ; out0             ;
+; |FreqChange|Add0~15     ; |FreqChange|Add0~15     ; out0             ;
+; |FreqChange|Add0~16     ; |FreqChange|Add0~16     ; out0             ;
+; |FreqChange|Add0~17     ; |FreqChange|Add0~17     ; out0             ;
+; |FreqChange|Add0~18     ; |FreqChange|Add0~18     ; out0             ;
+; |FreqChange|Add0~19     ; |FreqChange|Add0~19     ; out0             ;
+; |FreqChange|Add0~20     ; |FreqChange|Add0~20     ; out0             ;
+; |FreqChange|Add0~21     ; |FreqChange|Add0~21     ; out0             ;
+; |FreqChange|Add0~22     ; |FreqChange|Add0~22     ; out0             ;
+; |FreqChange|Add0~23     ; |FreqChange|Add0~23     ; out0             ;
+; |FreqChange|Add0~24     ; |FreqChange|Add0~24     ; out0             ;
+; |FreqChange|Add0~25     ; |FreqChange|Add0~25     ; out0             ;
+; |FreqChange|Add0~26     ; |FreqChange|Add0~26     ; out0             ;
+; |FreqChange|Add0~27     ; |FreqChange|Add0~27     ; out0             ;
+; |FreqChange|Add0~28     ; |FreqChange|Add0~28     ; out0             ;
+; |FreqChange|Add0~29     ; |FreqChange|Add0~29     ; out0             ;
+; |FreqChange|Add0~30     ; |FreqChange|Add0~30     ; out0             ;
+; |FreqChange|Add0~31     ; |FreqChange|Add0~31     ; out0             ;
+; |FreqChange|Add0~32     ; |FreqChange|Add0~32     ; out0             ;
+; |FreqChange|Add0~33     ; |FreqChange|Add0~33     ; out0             ;
+; |FreqChange|Add0~34     ; |FreqChange|Add0~34     ; out0             ;
+; |FreqChange|Add0~35     ; |FreqChange|Add0~35     ; out0             ;
+; |FreqChange|Add0~36     ; |FreqChange|Add0~36     ; out0             ;
+; |FreqChange|Add0~37     ; |FreqChange|Add0~37     ; out0             ;
+; |FreqChange|Add0~38     ; |FreqChange|Add0~38     ; out0             ;
+; |FreqChange|Add0~39     ; |FreqChange|Add0~39     ; out0             ;
+; |FreqChange|Add0~40     ; |FreqChange|Add0~40     ; out0             ;
+; |FreqChange|Add0~41     ; |FreqChange|Add0~41     ; out0             ;
+; |FreqChange|Add0~42     ; |FreqChange|Add0~42     ; out0             ;
+; |FreqChange|Add0~43     ; |FreqChange|Add0~43     ; out0             ;
+; |FreqChange|Add0~44     ; |FreqChange|Add0~44     ; out0             ;
+; |FreqChange|Add0~45     ; |FreqChange|Add0~45     ; out0             ;
+; |FreqChange|Add0~46     ; |FreqChange|Add0~46     ; out0             ;
+; |FreqChange|Add0~47     ; |FreqChange|Add0~47     ; out0             ;
+; |FreqChange|Add0~48     ; |FreqChange|Add0~48     ; out0             ;
+; |FreqChange|Add0~49     ; |FreqChange|Add0~49     ; out0             ;
+; |FreqChange|Add0~50     ; |FreqChange|Add0~50     ; out0             ;
+; |FreqChange|Add0~51     ; |FreqChange|Add0~51     ; out0             ;
+; |FreqChange|Add0~52     ; |FreqChange|Add0~52     ; out0             ;
+; |FreqChange|Add0~53     ; |FreqChange|Add0~53     ; out0             ;
+; |FreqChange|Add0~54     ; |FreqChange|Add0~54     ; out0             ;
+; |FreqChange|Add0~55     ; |FreqChange|Add0~55     ; out0             ;
+; |FreqChange|Add0~56     ; |FreqChange|Add0~56     ; out0             ;
+; |FreqChange|Add0~57     ; |FreqChange|Add0~57     ; out0             ;
+; |FreqChange|Add0~58     ; |FreqChange|Add0~58     ; out0             ;
+; |FreqChange|Add0~59     ; |FreqChange|Add0~59     ; out0             ;
+; |FreqChange|Add0~60     ; |FreqChange|Add0~60     ; out0             ;
++-------------------------+-------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Tue Oct 27 23:04:52 2015
+Info: Command: quartus_sim --simulation_results_format=VWF MyPiano -c MyPiano_qsim
+Info (324025): Using vector source file "C:/MyDocuments/Files/Alrera/MyPiano/FreqChange.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      38.62 %
+Info (328052): Number of transitions in simulation is 2952
+Info (324045): Vector file MyPiano_qsim.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 322 megabytes
+    Info: Processing ended: Tue Oct 27 23:04:53 2015
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
